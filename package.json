@@ -2,7 +2,7 @@
   "name": "news_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://developersway.github.io/news_app/",
+  "homepage": "https://developersway.github.io/fetch_news/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",
