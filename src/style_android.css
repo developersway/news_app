@@ -1,0 +1,109 @@
+@media screen and (max-width: 1024px)
+{
+    .input_field{
+        display:none;
+    }
+
+    .searchfield{
+        display: block;
+        padding:0;
+        margin-bottom: -15px;
+        box-shadow:0 4px 2px 2px rgba(69, 204, 35, 0.87);
+        position: relative;
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    .news{
+        margin:0;
+    }
+
+    .structure{
+        display: block;
+        
+    }
+
+    .content_container{
+        margin:0;
+        padding:0;        
+        width: 90%;
+        height: 300px;
+        display: none;
+        font-size: 50%;
+        margin-left: 5%;
+        color: white;
+        background-color:grey;
+        box-shadow:0 0 0 0;
+        font-weight: bolder;            
+    }
+
+    .content:hover{
+        color: black;
+    }
+
+    .content_title{
+        color: black;
+    }
+    .content_title:hover{
+        color: black;
+    }
+
+    button{
+        width: 30%;
+        margin-left: 35%;
+    }
+
+    .navbar{
+        display: block;
+        color: red;
+        font-size: 200%;
+        margin:0;
+        
+    }
+    .navbar span:hover{
+        cursor:pointer;
+    }
+
+    .navbar:hover .content_container{
+        display: flex;
+        
+    }
+
+    .input_field1{
+        display: flex;
+        margin:0;
+        position: sticky;
+        position: -webkit-sticky;
+        top:0px;
+        
+
+    }
+
+    input{
+        display: block;
+        width:100%;
+        height: 31px;
+        background-color: black;
+        color: white;
+    }
+
+    input:focus{
+        background-color: black;
+        color: white;
+    }
+
+    .input_field1 button{
+        margin-left:0;
+        width: 20%;
+        height: 35px;
+        background-color: black;
+        color: white;
+        
+    }
+
+    
+
+    
+}
