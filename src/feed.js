@@ -18,6 +18,7 @@ class Feed extends React.Component{
                 org=item.title;
                 //console.log(org+str);
                 org=org.toLowerCase();
+                str=str.toLowerCase();
                 org = org.replace(/ +/g, "");
                 console.log(org+"====="+str);
                     if(str=="")
